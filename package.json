@@ -1,0 +1,43 @@
+{
+  "name": "clips",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "babel-node server/index.js --presets es2015,stage-2",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^0.15.3",
+    "chance": "^1.0.4",
+    "express": "^4.14.0",
+    "halogen": "^0.2.0",
+    "mongoose": "^4.7.6",
+    "mongoose-timestamp": "^0.6.0",
+    "multer": "^1.2.1",
+    "path": "^0.12.7",
+    "react": "^15.4.2",
+    "react-dom": "^15.4.2",
+    "react-dropzone": "^3.9.0",
+    "react-image-lightbox": "^3.4.1",
+    "react-masonry-component": "^5.0.3",
+    "react-redux": "^5.0.2",
+    "redux": "^3.6.0",
+    "redux-promise-middleware": "^4.2.0",
+    "redux-thunk": "^2.1.0",
+    "uuid": "^3.0.1"
+  },
+  "devDependencies": {
+    "babel-cli": "^6.18.0",
+    "babel-loader": "^6.2.10",
+    "babel-preset-es2015": "^6.18.0",
+    "babel-preset-react": "^6.16.0",
+    "babel-preset-stage-2": "^6.18.0",
+    "css-loader": "^0.26.1",
+    "style-loader": "^0.13.1",
+    "webpack": "^1.14.0",
+    "webpack-dev-middleware": "^1.9.0"
+  }
+}
