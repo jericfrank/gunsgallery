@@ -36,7 +36,7 @@ class RecordsWrapper extends React.Component {
 						</div>
 
 						<div className="post-image">
-							<img style={{cursor: "pointer"}} onClick={handleOpenLightBox} src={`/uploads/${data.filename}`} className="img-responsive" alt="fransisca gallery" />
+							<img style={{cursor: "pointer"}} onClick={handleOpenLightBox} src={`/uploads/${data.filename}`} className="img-responsive" alt={`/uploads/${data.filename}`} />
 						</div>
 						<div className="post-desc">
                 			 <p>{ data.originalname }</p>
